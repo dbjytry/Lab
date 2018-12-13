@@ -13,7 +13,8 @@ Demonstrate micro benchmarking
 ### algo
 * Depends on `algo`
 * Benchmark:
-`sbt "bench/jmh:run -i 3 -wi 1 -f 1 -t 1"`
+`sbt "bench/jmh:run -i 3 -wi 1 -f 1 -t 1 .*DPBench.*"`
+`sbt "bench/jmh:run -i 3 -wi 1 -f 1 -t 1 .*SparkTransformBench.*"`
 
 * Example output:
 ```$text

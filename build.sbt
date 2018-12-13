@@ -39,5 +39,6 @@ lazy val bench = project
     name := "bench"
   )
   .dependsOn(
-    algo
+    algo,
+    etl
   )
